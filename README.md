@@ -11,3 +11,9 @@ Hi! I'm Marconi Maciel Guimarães Junior
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marconi-junior-61b313236/)
+
+<div align="center">
+  <a href="https://github.com/MarconiJunior">
+  <img height="140em" src="https://github-readme-stats.vercel.app/api?username=MarconiJunior&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarconiJunior&layout=compact&langs_count=7&theme=dark"/>
+</div>
