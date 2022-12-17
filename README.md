@@ -1,5 +1,5 @@
 # Hi! I'm Marconi Maciel Guimarães Junior.
-- I am currently working with support assist.
+- Front-end developer in learning.
 - 18yo
 - How to contact me: junior@brumafe.com
 <br></br>
