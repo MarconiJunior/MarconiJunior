@@ -47,6 +47,3 @@
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=MarconiJunior&theme=midnight-purple)](https://github.com/anuraghazra/github-readme-stats)
 <br><br>
 [![Naereen's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MarconiJunior&theme=midnight-purple)](https://github.com/anuraghazra/github-readme-stats)
-<br><br>
-![snake gif](https://github.com/MarconiJunior/MarconiJunior/blob/output/github-contribution-grid-snake.gif)
-
