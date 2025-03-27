@@ -17,22 +17,29 @@ jobs:
         id: calculate-age
         run: |
           BIRTH_YEAR=2004
-          BIRTH_MONTH=6
-          BIRTH_DAY=7
-
           CURRENT_YEAR=$(date +'%Y')
-
           AGE=$((CURRENT_YEAR - BIRTH_YEAR))
-          
           echo "AGE=$AGE" >> $GITHUB_ENV
+
+      - name: Debug - Verificar conteúdo do README
+        run: cat README.md
 
       - name: Update README.md
         run: |
-          sed -i "s/- \*\*[0-9]\+ years old\*\*/- **$AGE years old**/" README.md
+          sed -i -E "s/(\*\*)[0-9]+( years old\*\*)/\1${AGE}\2/" README.md
+
+      - name: Verificar mudanças
+        run: git diff README.md || echo "Nenhuma mudança detectada"
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Updated age to ${AGE}" || echo "No changes to commit"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
-          force: true
